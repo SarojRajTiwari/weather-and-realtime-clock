@@ -1,0 +1,198 @@
+*{
+    margin:50;
+    padding:600;
+    font-family:sans-serif;
+    font-size:16px;
+    align-content: center;
+    border: medium;
+    
+
+}
+
+.analog-clock{
+    width:140px;
+    height:140px;
+    padding-left: 400px;
+    padding-top: -300px;
+
+    position:absolute;
+}
+
+#clock-face{
+    stroke:black;
+    stroke-width:2px;
+    fill:white;
+}
+
+#h-hand, #m-hand, #s-hand, #s-tail{
+    stroke:black;
+    stroke-linecap:round;
+}
+
+#h-hand{
+    stroke-width:3px;
+}
+
+#m-hand{
+    stroke-width:2px;
+}
+
+#s-hand{
+    stroke-width:1px;
+}
+
+.time-text{
+    text-align:center;
+    display: block;
+    font-size: 2.2em;
+}
+
+body{
+    background-color: red;
+}
+
+.container{
+    width: 600px;    
+    background-color: #FFF;
+    
+    display: block;
+    margin: 10 auto;
+    
+
+    
+    border-radius: 10px;
+    padding-bottom :300px;
+    padding:50px;
+    height: 300px;
+    padding-top: 20px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    padding-right: 100px;
+    border-radius: 10px 10px 0 0;
+    display: block;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 2.2em;
+    color: #293251;
+    display: block;
+    padding-right: -100px;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: white;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: red;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: red;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+    display: block;
+
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.8em;
+    display: block;
+}
+
+.clock {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translateX(-50%) translateY(-50%);
+    color:#293251;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 5px;
+}
+
+
+#date
+{
+    margin-top:30px;
+    color:black;
+    font-size:30px;
+    padding:20px;
+    width:500px;
+    margin-left:-80px;
+}
+#time
+{
+    margin-top:20px;
+    font-size:10px;
+    color:silver;
+    border:2px dashed #2E9AFE;
+    padding:10px;
+    width:700px;
+    margin-left:150px;
+}
